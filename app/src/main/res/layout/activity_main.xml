@@ -1,0 +1,44 @@
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools/"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context="athvillars.materialtest.MainActivity">
+
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="55dp"
+            android:background="#B2EBF2"
+            android:layout_height="wrap_content">
+
+
+        <ImageView
+
+
+                android:layout_width="360dp"
+                android:layout_height="180dp"
+                android:src="@drawable/saalt"
+                android:layout_gravity="bottom"
+                android:scaleType="fitXY"
+
+                android:adjustViewBounds="true"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
